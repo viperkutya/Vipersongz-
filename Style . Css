@@ -27,24 +27,54 @@ h1 {
   color: #fff;
 }
 
+nav a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #00ffcc;
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 15px;
+  text-align: left;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
 h2 {
-  font-size: 1.8rem;
-  margin-top: 30px;
+  font-size: 2rem;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #ff0066;
+  padding-bottom: 5px;
+}
+
+.genres-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+  font-weight: bold;
+  justify-content: center;
 }
 
 .song-list {
   list-style: none;
   padding: 0;
-  margin-top: 20px;
 }
 
 .song-list li {
-  margin: 20px auto;
-  padding: 15px;
-  max-width: 90%;
   background-color: #1e1e1e;
+  padding: 15px;
   border-radius: 12px;
-  box-shadow: 0 0 10px #00000050;
+  margin-bottom: 15px;
 }
 
 a {
@@ -61,4 +91,5 @@ footer {
   margin-top: 30px;
   font-size: 0.9rem;
   color: #ccc;
+  text-align: center;
 }
