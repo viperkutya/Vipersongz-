@@ -1,61 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <title>Vipersongz – Download Ugandan Hits</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <header>
-    <img src="https://via.placeholder.com/80x80?text=🎧" alt="Logo" class="logo" />
-    <h1>Vipersongz</h1>
-    <p>Ugandan Hip-hop • Dancehall • International</p>
-    <nav>
-      <a href="#about">About</a> |
-      <a href="#genres">Genres</a> |
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
+<section id="songs">
+  <h2>Available Songs</h2>
+  <ul class="song-list">
+    <li>
+      <strong>Song Title 1</strong><br />
+      <audio controls>
+        <source src="songs/song1.mp3" type="audio/mpeg" />
+        Your browser does not support the audio tag.
+      </audio><br />
+      <a href="songs/song1.mp3" download>⬇ Download</a>
+    </li>
 
-  <main>
-    <section id="about">
-      <h2>About Vipersongz</h2>
-      <p>Vipersongz brings you the hottest Ugandan hip-hop, dancehall, and international hits for free download.</p>
-    </section>
-
-    <section id="genres">
-      <h2>Genres</h2>
-      <ul class="genres-list">
-        <li>Hip-hop</li>
-        <li>Dancehall</li>
-        <li>International</li>
-      </ul>
-    </section>
-
-    <section id="songs">
-      <h2>Available Songs</h2>
-      <ul class="song-list">
-        <li>
-          <strong>Song Title 1</strong><br />
-          <a href="songs/song1.mp3" download>⬇ Download</a>
-        </li>
-        <li>
-          <strong>Song Title 2</strong><br />
-          <a href="songs/song2.mp3" download>⬇ Download</a>
-        </li>
-      </ul>
-    </section>
-
-    <section id="contact">
-      <h2>Contact Us</h2>
-      <p>Email: vipersongz@example.com</p>
-      <p>Follow us on social media!</p>
-    </section>
-  </main>
-
-  <footer>
-    &copy; 2025 Vipersongz. All rights reserved.
-  </footer>
-</body>
-</html>
+    <li>
+      <strong>Song Title 2</strong><br />
+      <audio controls>
+        <source src="songs/song2.mp3" type="audio/mpeg" />
+        Your browser does not support the audio tag.
+      </audio><br />
+      <a href="songs/song2.mp3" download>⬇ Download</a>
+    </li>
+  </ul>
+</section>
