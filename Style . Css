@@ -129,4 +129,40 @@ footer {
   font-size: 1rem;
   background: #1e1e1e;
   color: #fff;
+}form {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 15px;
+  background: #1e1e1e;
+  color: #fff;
+  font-size: 1rem;
+}
+
+button {
+  background: #ff0066;
+  border: none;
+  padding: 12px 20px;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #00ffcc;
+  color: #000;
+}
+
+#formStatus {
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
 }
