@@ -1,13 +1,64 @@
-body{
-  font-family:sans-serif;
-  background:#0f0f0f;
-  color:#fff;
-  margin:0;
-  text-align:center;
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+  color: #f4f4f4;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
 }
-header{
-  background:#ff0066;
-  padding:20px;
+
+header {
+  background-color: #ff0066;
+  padding: 20px;
+  border-bottom: 5px solid #ff3385;
 }
-ul{list-style:none;padding:0}
-a{color:#00ffcc;text-decoration:none;font-weight:bold}
+
+.logo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: #fff;
+  margin-bottom: 10px;
+}
+
+h1 {
+  margin: 10px 0 5px;
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-top: 30px;
+}
+
+.song-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.song-list li {
+  margin: 20px auto;
+  padding: 15px;
+  max-width: 90%;
+  background-color: #1e1e1e;
+  border-radius: 12px;
+  box-shadow: 0 0 10px #00000050;
+}
+
+a {
+  color: #00ffcc;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+footer {
+  background: #1a1a1a;
+  padding: 15px;
+  margin-top: 30px;
+  font-size: 0.9rem;
+  color: #ccc;
+}
