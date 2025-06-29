@@ -111,4 +111,62 @@
     <button type="submit">Send Message</button>
   </form>
   <p id="formStatus"></p>
-</section>
+</section><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>About - ViperSongz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="about.html">About</a> |
+    <a href="music.html">Music</a> |
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <h1>About ViperSongz</h1>
+  <p>ViperSongz is your entertainment hub for the latest Ugandan hip-hop and dancehall music, plus international hits.</p>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Music - ViperSongz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="about.html">About</a> |
+    <a href="music.html">Music</a> |
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <h1>Music Collection</h1>
+  <ul>
+    <li>Ugandan Hip-Hop <button>Download</button></li>
+    <li>Ugandan Dancehall <button>Download</button></li>
+    <li>International Songs <button>Download</button></li>
+  </ul>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Contact - ViperSongz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="about.html">About</a> |
+    <a href="music.html">Music</a> |
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <h1>Contact Us</h1>
+  <p>Feel free to reach out via email: <a href="mailto:info@vipersongz.com">info@vipersongz.com</a></p>
+</body>
+</html>
