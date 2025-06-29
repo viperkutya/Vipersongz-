@@ -1,4 +1,18 @@
-<section id="songs">
+<script>
+  function searchSongs() {
+    const input = document.getElementById('searchInput').value.toLowerCase();
+    const songs = document.querySelectorAll('.song');
+
+    songs.forEach(song => {
+      const title = song.querySelector('strong').innerText.toLowerCase();
+      if (title.includes(input)) {
+        song.style.display = 'block';
+      } else {
+        song.style.display = 'none';
+      }
+    });
+  }
+</script><section id="songs">
   <h2>Available Songs</h2>
 
   <!-- Filter Buttons -->
@@ -46,4 +60,7 @@
       }
     });
   }
-</script>
+</script><!-- Search Bar -->
+<div class="search-box">
+  <input type="text" id="searchInput" placeholder="Search songs..." onkeyup="searchSongs()" />
+</div>
