@@ -1,22 +1,49 @@
 <section id="songs">
   <h2>Available Songs</h2>
+
+  <!-- Filter Buttons -->
+  <div class="filters">
+    <button onclick="filterSongs('all')">All</button>
+    <button onclick="filterSongs('hiphop')">Hip-hop</button>
+    <button onclick="filterSongs('dancehall')">Dancehall</button>
+    <button onclick="filterSongs('international')">International</button>
+  </div>
+
+  <!-- Songs List -->
   <ul class="song-list">
-    <li>
-      <strong>Song Title 1</strong><br />
+    <li class="song hiphop">
+      <strong>Ug Flow Anthem</strong><br />
       <audio controls>
         <source src="songs/song1.mp3" type="audio/mpeg" />
-        Your browser does not support the audio tag.
       </audio><br />
       <a href="songs/song1.mp3" download>⬇ Download</a>
     </li>
 
-    <li>
-      <strong>Song Title 2</strong><br />
+    <li class="song dancehall">
+      <strong>Dance Vibes 256</strong><br />
       <audio controls>
         <source src="songs/song2.mp3" type="audio/mpeg" />
-        Your browser does not support the audio tag.
       </audio><br />
       <a href="songs/song2.mp3" download>⬇ Download</a>
     </li>
+
+    <li class="song international">
+      <strong>Global Hit</strong><br />
+      <audio controls>
+        <source src="songs/song3.mp3" type="audio/mpeg" />
+      </audio><br />
+      <a href="songs/song3.mp3" download>⬇ Download</a>
+    </li>
   </ul>
-</section>
+</section><script>
+  function filterSongs(genre) {
+    const songs = document.querySelectorAll('.song');
+    songs.forEach(song => {
+      if (genre === 'all' || song.classList.contains(genre)) {
+        song.style.display = 'block';
+      } else {
+        song.style.display = 'none';
+      }
+    });
+  }
+</script>
