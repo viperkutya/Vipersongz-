@@ -96,4 +96,22 @@ footer {
   width: 100%;
   max-width: 300px;
   margin-top: 10px;
+}.filters {
+  margin-bottom: 20px;
+}
+
+.filters button {
+  background: #ff0066;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  margin: 5px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.filters button:hover {
+  background: #00ffcc;
+  color: #000;
 }
