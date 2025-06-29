@@ -92,4 +92,8 @@ footer {
   font-size: 0.9rem;
   color: #ccc;
   text-align: center;
+}audio {
+  width: 100%;
+  max-width: 300px;
+  margin-top: 10px;
 }
